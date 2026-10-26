@@ -8,6 +8,7 @@ public class GreetingController {
 
     @GetMapping("/")
     public String greeting() {
+    	System.out.println("test----");
         return "Hello from Spring Boot on Java 8!";
     }
 }
